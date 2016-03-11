@@ -1,0 +1,211 @@
+﻿* {
+    font-family: 'Segoe UI', sans-serif, helvetica;
+    margin: 0px;
+    padding: 0px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.margin-zero {
+    margin: 0px;
+}
+
+.padding-zero {
+    padding: 0px;
+}
+
+body {
+    background-image: url("../Images/Live-drops.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 110px;
+    background-image: repeating-linear-gradient(grey, black, black, blue);
+    font-size: 120%;
+    border-radius: 5px;
+    color: white;
+}
+
+    header .title {
+        margin-left: 10%;
+        width: 265px;
+    }
+
+    header #firstline {
+        font-size: 55px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    header #secondline {
+        margin-left: 55px;
+        font-size: 20px;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+#salutation {
+    padding-top: 8px;
+    text-align: right;
+    font-size: 15px;
+    width: 100%;
+}
+
+    #salutation > * {
+        padding-right: 30px;
+    }
+
+ul#menu {
+    text-align: right;
+    list-style: none;
+}
+
+.LinkButton {
+    background: none;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding: 0px 8px 0px 8px;
+}
+
+    .LinkButton:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+        text-decoration: underline;
+        border-radius: 2px;
+        color: blue;
+        padding: 0px 8px 0px 8px;
+    }
+
+.indent {
+    margin-left: 10%;
+}
+
+.content-wrapper {
+    background-color: rgba(173, 216, 230, 0.8);
+    border-radius: 5px;
+    min-height: 450px;
+}
+
+    .content-wrapper h2 {
+        margin-top: 80px;
+        font-size: 150%;
+        font-weight: 500;
+    }
+
+.undecorated_link {
+    text-decoration: none;
+    color: #007ACC;
+}
+
+.ValidationError {
+    color: red;
+}
+
+.Panel, .content-wrapper > h3 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.WidePanel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FullPanel {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Message {
+    font-size: 80%;
+}
+
+.Button {
+    width: 60px;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: rgba(226, 226, 226, 0.8);
+    font-size: .7em;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#Tabs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 40px;
+}
+
+.Tab {
+    height: 40px;
+    display: inline-block;
+    width: 25%;
+}
+
+#TabContent {
+    min-height: 330px;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Initial {
+    height: 40px;
+    width: 25%;
+    float: left;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-image: repeating-linear-gradient(blue, aqua);
+    border-radius: 5px;
+}
+
+    .Initial:hover {
+        color: white;
+        cursor: pointer;
+        background-image: repeating-linear-gradient(grey, black, black, grey);
+        border-radius: 5px;
+    }
+
+.Clicked {
+    float: left;
+    height: 40px;
+    width: 25%;
+    color: White;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-image: repeating-linear-gradient(grey, black, black, grey);
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="icon" href="Images/CloudDisk_icon.jpg" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form" runat="server">
+        <header>
+            <div class="title">
+                <div><a href="Default.aspx" id="firstline">CloudDisk</a></div>
+                <div><a href="Default.aspx" id="secondline">Your online disk</a></div>
+            </div>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <br /><br />
+        <p>Designed &amp; Maintained by Suhail Mahmood</p>
+        <p><b>&copy; <%: DateTime.Now.Year %> - CloudDisk.com</b></p>
+    </footer>
+</body>
+</html>

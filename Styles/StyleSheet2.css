@@ -1,0 +1,14 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contents {
+    min-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
